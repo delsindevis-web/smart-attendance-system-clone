@@ -1,0 +1,14 @@
+{
+  "name": "smart-attendance-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Smart Attendance System (BLE proximity + face liveness + dynamic QR)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test \"test/**/*.test.js\""
+  }
+}
